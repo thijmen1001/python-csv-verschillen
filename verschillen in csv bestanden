@@ -36,3 +36,13 @@ with open(fileName, mode= 'r',newline='') as klantenFile:
 for nieuw in klantennieuw:
     if nieuw not in klantenoud:
         print(nieuw[0], nieuw[1], nieuw[2])
+
+'''
+output = 
+
+Rick  Albersen
+Alexander  Freijser
+Jack  Hoogmoed
+Michael van Lieffering
+Arno  Overkleeft
+'''
